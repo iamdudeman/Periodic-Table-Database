@@ -17,7 +17,7 @@
 	//get the raw file from the elements file
 	$periodicraw = file_get_contents("Periodic Elements.json");
 	if(!$periodicraw){
-		echo "Could read in elements";
+		echo "Could not read in elements";
 		exit();
 	}
 
